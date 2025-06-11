@@ -1,9 +1,0 @@
-# .gitignore
-venv/
-*.pyc
-__pycache__/
-token.json
-credentials.json
-*.mp3
-*.wav
-.env
