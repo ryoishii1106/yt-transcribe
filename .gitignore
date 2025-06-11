@@ -1,9 +1,19 @@
-# .gitignore
+# Python venv
 venv/
-*.pyc
+yt-transcribe-env/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Editor history
+.history/
+
+# Secrets
 token.json
 credentials.json
+.env
+
+# Audio files
 *.mp3
 *.wav
-.env
