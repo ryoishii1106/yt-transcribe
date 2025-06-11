@@ -11,6 +11,7 @@ YouTube音声をWhisperで文字起こしし、Google Docsに自動出力する�
 ## Usage
 ```bash
 python main.py "https://www.youtube.com/watch?v=xxxxxx" --start 00:01:00 --duration 00:00:30
+```
 
 ## Setup
 	•	pip install -r requirements.txt
