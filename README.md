@@ -32,7 +32,7 @@
     git clone https://github.com/ryoishii1106/yt-transcribe.git
     cd yt-transcribe
     python3 -m venv yt-transcribe-env
-    source yt-transcribe-env/bin/activate
+    source yt-transcribe-env/bin/activate # Testing whether it can be activated
     ```
 
 2. **Install dependencies:**
@@ -49,7 +49,10 @@
 ---
 
 ## 🎬 Usage
-
+### 🔹 Activation of a virtual environment
+```bash
+source yt-transcribe-env/bin/activate
+```
 ### 🔹 Basic usage
 ```bash
 python main.py "https://www.youtube.com/watch?v=XXXXXXXX"
